@@ -91,4 +91,11 @@ insert into logs
                 ]
               }');
 
+
+-- notes
+insert into notes values ('PostgreSQL', 'PostgreSQLはリレーショナル・データベース管理システムです。');
+insert into notes values ('Groonga', 'Groongaは日本語対応の高速な全文検索エンジンです。');
+insert into notes values ('PGroonga', 'PGroongaはインデックスとしてGroongaを使うためのPostgreSQLの拡張機能です。');
+insert into notes values ('コマンドライン', 'groongaコマンドがあります。');
+
 commit;

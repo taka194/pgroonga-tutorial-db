@@ -68,3 +68,12 @@ create table logs (
 );
 
 create index pgroonga_logs_index on logs using pgroonga (record);
+
+
+-- notes
+create table notes (
+  title text,
+  content text
+);
+
+create index pgroonga_notes_index on notes using pgroonga ((array[title, content]));
