@@ -7,6 +7,7 @@
 |version|PGroonga|Postgres|ベースイメージ|
 |---|---|---|---|
 |1.0.0|3.2.4|17|groonga/pgroonga:3.2.4-alpine-17-slim|
+|2.0.0|4.0.5|18|groonga/pgroonga:4.0.5-alpine-18-slim|
 
 # 利用方法
 
@@ -36,5 +37,8 @@ docker compose down --rmi all --volumes --remove-orphans
 
 ```bash
 docker exec -it pgroonga_container bash
+```
+
+```bash
 psql -U postgres -d postgres
 ```

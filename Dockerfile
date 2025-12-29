@@ -1,4 +1,4 @@
-FROM groonga/pgroonga:3.2.4-alpine-17-slim
+FROM groonga/pgroonga:4.0.5-alpine-18-slim
 
 ENV TZ Asia/Tokyo
 ENV POSTGRES_HOST_AUTH_METHOD scram-sha-256
